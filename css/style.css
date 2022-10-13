@@ -1,0 +1,149 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  overflow: hidden;
+
+
+}
+#kane{
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  height: 130px;
+  width: 100%;
+  background-color:green;
+  opacity: 1;
+  z-index: 1;
+}
+  header> #kane{
+  padding: 15px 50px;
+  display: flex;
+  justify-content: space-between;
+}
+  .logo{
+  top: 18px;
+  left: 9px;
+  width: 250px;
+  height: 150px;
+  }
+  .ki{
+  text-decoration: none !important;
+  color: black;
+  padding: 30px;
+  }
+  img{
+  width: 100%;
+  }
+  #meth{
+  float: right;
+  }
+  #meth a {
+   margin-right: 5px;
+   text-decoration: none;
+   /* color: white; */
+   font-size: 13px;
+   padding: 0px;
+   color: white;
+  }
+  .ki{
+  text-decoration: none;
+  text-decoration: none !important;
+  color: #264194 ;
+  padding: 11px ;
+  }
+  .ziggy #kai{
+  font-size: 12px;
+  border: none;
+  outline: none;
+  color: white ;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  }
+  .ziggy{
+  float: left;
+  overflow: hidden;
+  }
+  #case{
+  display: none;
+  position: absolute;
+  background-color: yellow;
+  min-width: 120px;
+  box-shadow: 0px 5px 8px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  /* opacity: 0.4; */
+  }
+   .gf{
+      background-color: white;
+      height:1px;
+      width:90%;
+      position: absolute;
+      left: 6px;
+  }
+  #case a {
+  float: none;
+  color: white;
+  padding: 8px 8px;
+  text-decoration: none! important;
+  display: block;
+  text-align: left;
+  width: 240px;
+  }
+  #meth a:hover, .ziggy:hover #kai {
+   background-color:azure; 
+   /* text-decoration: underline; */
+  /* text-decoration-thickness:3px ; */
+  } 
+  #case a:hover {
+  background-color:white;
+  }
+  .ziggy:hover #case{
+  display: block;
+   background-color: blue; 
+  }
+  .yu{
+  position: absolute;
+  bottom :0;
+  width: 100%;
+  opacity: 1;
+  }
+  #sp{
+      position: relative;
+  }
+  #kane .king{
+      border-radius: 30px;
+      background-color: white;
+  }
+  .imgs {
+    width: 70%;
+    height: 60%;
+    object-fit: cover;
+    align-items: center;
+  }
+
+  .carousel{
+box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+height: 60%; 
+width: 70%;
+overflow: hidden;
+align-items: center;
+border-bottom: 10px;
+border-color: green;
+padding: 200px;
+}
+.image-container {
+  display: flex;
+  transform: translateX(0);
+  transition: transform 0.5s ease-in-out;
+}
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+.btn {
+
+}
+
